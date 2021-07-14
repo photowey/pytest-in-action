@@ -1,0 +1,14 @@
+- name: 'refresh wechat access_token'
+  request:
+    #url: 'https://api.wexin.qq.com/cgi-bin/token'
+    url: 'https://www.baidu.com'
+    method: 'get'
+    headers:
+      - content-type: 'application/json'
+    parameters:
+      grant_type: 'client_credential'
+      app-id: 'your.appId'
+      app-secret: 'your.appSecret'
+    validate:
+      - eq:
+          - expires_in: 7200

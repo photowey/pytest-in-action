@@ -1,0 +1,10 @@
+[global]
+index-url = https://pypi.doubanio.com/simple
+trust-host = pypi.doubanio.com
+
+;---------------------------------------------------
+; $ cp ./pip.ini.sample ./venv/Scripts
+; $ cd ./venv/Scripts
+; $ mv ./pip.ini.sample ./pip.ini
+;---------------------------------------------------
+
