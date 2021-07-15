@@ -23,10 +23,10 @@ if __name__ == '__main__':
     # pytest.main(['-vs'])
     # ---------------------------------------------
     # 指定用例
-    # pytest.main(['-vs', './src/main/python/testinterface/test_interface.py'])
+    # pytest.main(['-vs', './src/main/python/testapi/test_api.py'])
     # ---------------------------------------------
     # 指定文件夹
-    # pytest.main(['-vs', './{}/testinterface'.format(python_path)])
+    # pytest.main(['-vs', './{}/testapi'.format(python_path)])
     # ---------------------------------------------
     # -
     # ---------------------------------------------
@@ -34,10 +34,10 @@ if __name__ == '__main__':
     # nodeId: 模块名-分隔符-类名-方法名-函数名 组成
     # ---------------------------------------------
     # 执行函数
-    # pytest.main(['-vs', './{}/testinterface/test_interface.py::test_function'.format(python_path)])
+    # pytest.main(['-vs', './{}/testapi/test_api.py::test_function'.format(python_path)])
     # ---------------------------------------------
     # 执行方法
-    # pytest.main(['-vs', './{}/testinterface/test_interface.py::TestInterface::test_method'.format(python_path)])
+    # pytest.main(['-vs', './{}/testapi/test_api.py::TestInterface::test_method'.format(python_path)])
     # ---------------------------------------------
     # -n: 线程数量
     # --reruns: 失败用例重试 (--reruns==2)
