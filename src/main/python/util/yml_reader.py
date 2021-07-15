@@ -26,6 +26,11 @@ class YmlReader:
         """
         read yml file
         """
-        with open(self.yml_file, encoding='utf-8') as f:
-            content = yaml.load(f, Loader=yaml.FullLoader)
-            return content
+        try:
+            with open(self.yml_file, 'r', encoding='utf-8') as f:
+                content = yaml.load(f, Loader=yaml.FullLoader)
+                return content
+        except FileNotFoundError as e:
+            print('file not found!!! {}'.format(e))
+        except TypeError as t:
+            print('the type of file is wrong!!! {}'.format(t))
