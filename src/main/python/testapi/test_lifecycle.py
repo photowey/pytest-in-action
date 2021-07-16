@@ -17,7 +17,7 @@ class TestLifecycle:
         """
         setup_class
         """
-        print('execution setup_class()!')
+        print('\nexecution setup_class()!')
 
     def setup(self):
         """
@@ -36,3 +36,9 @@ class TestLifecycle:
         teardown_class
         """
         print('execution teardown_class()!')
+
+    def test_lifecycle(self):
+        """
+        test_lifecycle
+        """
+        print('execution test_lifecycle()!')
