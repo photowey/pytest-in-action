@@ -14,9 +14,20 @@
 # 2.类型以 {@code Test} 开头
 # 3.测试方法以: {@code test} 开头
 # ---------------------------------------------
+import allure
 import pytest
 
 
+@allure.feature('Feature1')
+@allure.story('Story1')
+@allure.testcase('http://my.tms.org/TESTCASE-1')
+def test_foo():
+    assert False
+
+
+@allure.feature('Feature2')
+@allure.story('Story2')
+@allure.testcase('http://my.tms.org/TESTCASE-2')
 def test_function():
     """
     test execution the function.
@@ -24,7 +35,9 @@ def test_function():
     print('test execution function')
 
 
-class TestInterface:
+@allure.feature('测试模块::这儿是模块')
+@allure.epic('define epic::epic 相当于总体描述')
+class TestApi:
     """
     test interface
     """
@@ -86,3 +99,32 @@ class TestInterface:
         :return:
         """
         print('test skip if!')
+
+    @allure.story('test_allure_feature_story')
+    @allure.title("test_allure_feature_title")
+    @allure.severity(allure.severity_level.TRIVIAL)
+    @allure.issue("http://jira.lan/browse/ISSUE-9527")
+    @allure.testcase("ttp://my.tms.org/browse/TESTCASE-9527")
+    def test_allure_feature(self, logger):
+        """
+        test allure_feature \n
+        Allure 中对严重级别的定义: \n
+        1. Blocker 级别: 中断缺陷(客户端程序无响应，无法执行下一步操作)\n
+        2. Critical 级别: 临界缺陷( 功能点缺失)\n
+        3. Normal 级别: 普通缺陷(数值计算错误)\n
+        4. Minor 级别: 次要缺陷(界面错误与UI需求不符)\n
+        5. Trivial 级别: 轻微缺陷(必输项无提示，或者提示不规范)
+        :return:
+        """
+        logger.info('do log::test_allure_feature!')
+        print('test allure feature!')
+
+    @allure.story('test_minor_minor')
+    @allure.title("test_minor_minor")
+    @pytest.mark.parametrize('country', ('CN', 'USA'))
+    def test_minor(self, logger, country):
+        """
+        test_minor
+        """
+        logger.info('the country is {}'.format(country))
+        assert country
