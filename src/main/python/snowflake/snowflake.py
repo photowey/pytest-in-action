@@ -32,7 +32,7 @@ SEQUENCE_MASK = -1 ^ (-1 << SEQUENCE_BITS)
 TWEPOCH = 1288834974657
 
 
-class SnowflakeIdWorker(object):
+class IdWorker(object):
     """
     Id 生成器
     """
