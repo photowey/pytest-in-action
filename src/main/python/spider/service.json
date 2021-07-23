@@ -1,0 +1,858 @@
+[
+    {
+        "app": "ccbfinplat",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 12211,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "contacts",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10011,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcauthing",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10066,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcbasedata",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10022,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcbehavioranalysis",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10138,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djccodemanager",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10031,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djccommunicate",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10021,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djccreditassess",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10043,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcelectronicarchives",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10018,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcresources",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10032,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcrevisemarks",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10028,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcrights",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10119,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcsupport",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10044,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcsvccenter",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10040,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djctemplate",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10026,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcvalueadded",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 20123,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "eureka",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-eureka-0",
+        "port": 8761,
+        "svc": "xcj-eureka-0.xcj-eureka-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "gecconfig",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-config-0",
+        "port": 8888,
+        "svc": "xcj-config-0.xcj-config-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "gecorg",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10012,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "privategateway",
+        "evn": "dev1",
+        "machine": "syh",
+        "pod": "syh-tomcat9-1-0",
+        "port": 8084,
+        "svc": "syh-tomcat9-1-0.syh-tomcat9-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "recommend",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10016,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "repository",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10015,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stddata",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10008,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stockapplyindependent",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 30022,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stockapplyperform",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 20028,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "unitcontract",
+        "evn": "dev1",
+        "machine": "syh",
+        "pod": "syh-jdk11-1-0",
+        "port": 20119,
+        "svc": "syh-jdk11-1-0.syh-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjapp",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-tomcat7-1-0",
+        "port": 8080,
+        "svc": "xcj-tomcat7-1-0.xcj-tomcat7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjcombine",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10013,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjcontent",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 20083,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjdemand",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10039,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjdemandapply",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10112,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjexpertselection",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 30018,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjfixpurch",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 11001,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjflowable",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10038,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjnotice",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 20241,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjstockplan",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10051,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjsupport",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk7-1-0",
+        "port": 10030,
+        "svc": "xcj-jdk7-1-0.xcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjteacherrepo",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 11019,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "xcjunitcontract",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 20119,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjwechat",
+        "evn": "dev1",
+        "machine": "xcj",
+        "pod": "xcj-jdk11-1-0",
+        "port": 10122,
+        "svc": "xcj-jdk11-1-0.xcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcadvice",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10111,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcauthing",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10166,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcbasedata",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10022,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcbehavioranalysis",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10238,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djccreditassess",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10143,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcdataanalysis",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10037,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcdatareport",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10239,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcdatasupervision",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10042,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcflowable",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10138,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcreport",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10040,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcrights",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10319,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcsupport",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10144,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "eureka",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-eureka-0",
+        "port": 8761,
+        "svc": "zcj-eureka-0.zcj-eureka-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "gecorg",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10312,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "recommend",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10016,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stddata",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10208,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stockapply",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10127,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stockapplyperform",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 20128,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjapp",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-tomcat7-1-0",
+        "port": 8080,
+        "svc": "zcj-tomcat7-1-0.zcj-tomcat7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjcodemanager",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10131,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjcombine",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10014,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjconfig",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-config-0",
+        "port": 9111,
+        "svc": "zcj-config-0.zcj-config-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjcontent",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 20093,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjcontract",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 20118,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjdataexchange",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10045,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjdemand",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 10129,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjexecute",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 20117,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjexpert",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10133,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjfinance",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10115,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjmutual",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 20089,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjnotice",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 20141,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjprovider",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10036,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjstockexe",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk11-1-0",
+        "port": 12214,
+        "svc": "zcj-jdk11-1-0.zcj-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjsupport",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-jdk7-1-0",
+        "port": 10024,
+        "svc": "zcj-jdk7-1-0.zcj-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjywgateway",
+        "evn": "dev1",
+        "machine": "zcj",
+        "pod": "zcj-tomcat9-1-0",
+        "port": 8085,
+        "svc": "zcj-tomcat9-1-0.zcj-tomcat9-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "contacts",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10211,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcadvice",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10111,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcauthing",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10266,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcbasedata",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10222,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcbehavioranalysis",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10338,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcdataanalysis",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10237,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcdatareport",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10339,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcdatasupervision",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10242,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcflowable",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 30038,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcreport",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10040,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcrights",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10219,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "djcsupport",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10019,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "eureka",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-eureka-0",
+        "port": 8761,
+        "svc": "glxt-eureka-0.glxt-eureka-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "gecorg",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10212,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "glxtconfig",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-config-0",
+        "port": 9112,
+        "svc": "glxt-config-0.glxt-config-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "glxtcontent",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 20094,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "innetcombine",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10018,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "repository",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 30015,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stddata",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10108,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stockapply",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10227,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "stockapplyperform",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 20228,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjcodemanager",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10231,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjcontract",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 20218,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjdataexchange",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10045,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjdemand",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10229,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjexecute",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 20217,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjexpert",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10333,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjfundmanagement",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 20120,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjquery",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk11-1-0",
+        "port": 10123,
+        "svc": "glxt-jdk11-1-0.glxt-jdk11-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjrevisemarks",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10228,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjsupport",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-jdk7-1-0",
+        "port": 10224,
+        "svc": "glxt-jdk7-1-0.glxt-jdk7-1-hs.dev1.svc.cluster.local"
+    },
+    {
+        "app": "zcjywgateway",
+        "evn": "dev1",
+        "machine": "glxt",
+        "pod": "glxt-tomcat9-1-0",
+        "port": 8085,
+        "svc": "glxt-tomcat9-1-0.glxt-tomcat9-1-hs.dev1.svc.cluster.local"
+    }
+]
