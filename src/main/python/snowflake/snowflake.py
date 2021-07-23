@@ -64,7 +64,7 @@ class IdWorker(object):
         """
         return int(time.time() * 1000)
 
-    def next_id(self):
+    def next_id(self) -> int:
         """
         生成新的Id
         :return:
