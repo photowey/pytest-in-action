@@ -9,6 +9,6 @@ requests~=2.26.0
 urllib3~=1.26.6
 pandas~=1.3.0
 openpyxl~=3.0.7
-jpype
+Jpype1~=1.3.0
 beautifulsoup4~=4.9.3
 pymysql
